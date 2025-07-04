@@ -1,0 +1,338 @@
+.topColumn{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    margin-left: 0%;
+}
+.Layout{
+    display: flex;
+    height: max-content;
+}
+.searchBar{
+    display: inline-block;
+    margin-right: -175px;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 5px;
+}
+#search{
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: -20%;
+}
+.navButton{
+    color: white;
+    background-color: #1F1D2B;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navButton:hover{
+    background-color: orange;
+    color: white;
+}
+.title{
+    width: auto;
+    margin-left: 68px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50%;
+    
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F1D2B;
+    color: orange;
+    width:400px;
+    text-align: center;
+    border-radius: 10px;
+    height: 100vh;
+    padding: 5px;
+}
+.sidebarOption{
+    background-color: #1F1D2B;
+    color: orange;
+    border:none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.sidebarOption:hover{
+    color: white;
+}
+
+.dishes{
+    display: inline-block;
+    flex: 1;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 50%;
+}
+.dish{
+    display: flex;
+    flex-direction: column;
+    background: #1F1D2B;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 10px;
+}
+.Layout{
+    display: flex;
+    height: max-content;
+}
+
+.leftLayout{
+    background: #1F1D2B;
+    width: 800px;
+    color: white;
+    height: fit-content;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.rightLayout{
+    background-color: #1F1D2B;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0%;
+    width:70%;
+    padding: 10px;
+}
+
+.cartDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10px;}
+.itemDetail{
+    margin-left: 2px;
+    width: 5px;
+}
+.qtyDetail{
+    margin-left: 105px;
+    width: 2px;
+}
+.priceDetail{
+    margin-left: 60px;
+    width: 4px;
+}
+.cartItemName{
+    margin-left: 2px;
+    width: 5px;
+}
+.cartQuantity{
+    margin-left: 105px;
+    width: 2px;
+}
+
+.Item{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.noteBar{
+    align-items: center;
+    justify-content: space-between;
+}
+#note{
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+}
+.quantity{
+    text-align: right;
+}
+.itemTotal{
+    text-align: right;
+}
+.menuPic{
+    height: 100px;
+    border-radius: 50px;
+}
+.dishesTitle{
+    margin-left: 40px;
+}
+.logoImg{
+    height: 50px;
+    border-radius: 30px;
+    padding: 15px;
+}
+.CurrentnavButton{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.cartbutton{
+    background-color: #252836;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cartbutton:hover{
+    background-color: orange;
+    color: white;
+}
+.Currentcartbutton{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit{
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: white;
+    color: orange;
+}
+.menuPic:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 769px) {
+    .Layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+        padding: 10px;
+    }
+    .sidebarOption{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dishes {
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .dish {
+        width: 90%;
+        margin: 10px;
+        display: block;
+    }
+    .leftLayout, .cartDetails {
+        width: 100%;
+        margin: 0;
+    }
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .searchBar {
+        width: 90%;
+        margin: 0;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 0;
+    }
+    .menuPic {
+        height: 80px;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    .Layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .dishes {
+        margin-left: 0;
+        text-align: center;
+    }
+    .dish {
+        width: 45%;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .leftLayout, .cartDetails {
+        width: 90%;
+        margin: 0;
+    }
+
+    .navbar {
+        gap: 25px;
+    }
+
+    .searchBar {
+        width: 70%;
+        margin: 10px;
+    }
+}
